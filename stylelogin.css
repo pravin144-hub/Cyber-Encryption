@@ -1,0 +1,106 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.bg {
+    background-color: #222;
+    color: white;
+}
+
+.top-space {
+    margin-top: 1px;
+}
+
+.border-md {
+    border-width: 2px;
+}
+
+.btn-facebook {
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+    border: none;
+    background-size: 200% auto;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    background-position: right center;
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+    /* change the direction of the change here */
+    color: #fff;
+}
+
+.btn-google {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border: none;
+}
+
+.btn-google:hover,
+.btn-google:focus {
+    background-position: right center;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476 51%, #FF512F 100%);
+    /* change the direction of the change here */
+    color: #fff;
+}
+
+.fa-google-plus-g {
+    font-size: 20px;
+}
+
+@media (max-width: 575.98px) {
+    .top {
+        margin-top: -40px;
+    }
+}
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 96vh;
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: rgb(150, 150, 150);
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.bg-white1 {
+    background-color: rgb(194, 194, 194);
+}
+
+.bg-white2 {
+    background-color: rgb(238, 228, 228);
+}
+
+.bg-white2:focus {
+    background-color: rgb(238, 228, 228);
+}
